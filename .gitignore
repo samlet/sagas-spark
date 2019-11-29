@@ -1,0 +1,8 @@
+workspace/ivy2/
+workspace/tispark*.jar
+spark-2.*/
+Spark-The-Definitive-Guide/
+docker-stacks/
+incubator-toree/
+spark/
+.ipynb_checkpoints
