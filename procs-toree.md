@@ -44,6 +44,11 @@ rdd.takeSample(false, 5)
 + 选项
     --jar-dir    directory where user added jars are
 
+## start with docker
+```sh
+$ docker run -it -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/all-spark-notebook:7a0c7325e470
+```
+
 ## add deps
 ```scala
 %AddDeps org.joda joda-money 0.11 --transitive --trace --verbose
